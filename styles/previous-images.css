@@ -1,11 +1,11 @@
 #fejk {
-  background-image: url(/resources/fejk_img.avif);
+  background-image: url(../resources/fejk_img.avif);
   background-size: cover;
   background-position: center;
 }
 
 #peterpan {
-  background-image: url(/resources/peterPan_img.PNG);
+  background-image: url(../resources/peterPan_img.png);
   background-size: cover;
   background-position: right;
 }
