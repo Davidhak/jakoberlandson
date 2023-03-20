@@ -1,11 +1,11 @@
 #fejk {
-  background-image: url(../resources/fejk_img.avif);
+  background-image: url('https://davidhak.github.io/jakoberlandson/resources/fejk_img.avif');
   background-size: cover;
   background-position: center;
 }
 
 #peterpan {
-  background-image: url(../resources/peterPan_img.png);
+  background-image: url(/resources/peterPan_img.png);
   background-size: cover;
   background-position: right;
 }
