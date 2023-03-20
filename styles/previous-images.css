@@ -12,7 +12,8 @@
 
 #socialdemokraterna {
   background-image: url('https://davidhak.github.io/jakoberlandson/resources/socialdemokraterna_img.png');
-  background-size: cover;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
   background-position: center;
 }
 
@@ -28,8 +29,58 @@
   background-position: center;
 }
 
+#kainoabel {
+  background-image: url('https://davidhak.github.io/jakoberlandson/resources/kainoabel.png');
+  background-size: cover;
+  background-position: center;
+}
+
+#erikgadd {
+  background-image: url('https://davidhak.github.io/jakoberlandson/resources/erikgadd.jpg');
+  background-size: cover;
+  background-position: center;
+  cursor: default;
+}
+
 #joseflove {
   background-image: url('https://davidhak.github.io/jakoberlandson/resources/joseflove_img.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+#allatiders {
+  background-image: url('https://davidhak.github.io/jakoberlandson/resources/allatiders.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+#lenabergendahl {
+  background-image: url('https://davidhak.github.io/jakoberlandson/resources/lenabergendahl.png');
+  background-size: cover;
+  background-position: top;
+}
+
+#emilspännare {
+  background-image: url('https://davidhak.github.io/jakoberlandson/resources/emilspännare.png');
+  background-size: cover;
+  background-position: center;
+}
+
+#grandpremiere {
+  background-image: url('https://davidhak.github.io/jakoberlandson/resources/grandpremiere.jpg');
+  background-size: cover;
+  background-position: top;
+}
+
+#glasklart {
+  background-image: url('https://davidhak.github.io/jakoberlandson/resources/glasklart.png');
+  background-size: cover;
+  background-position: center;
+  cursor: default;
+}
+
+#vidar {
+  background-image: url('https://davidhak.github.io/jakoberlandson/resources/vidar_img.jpg');
   background-size: cover;
   background-position: center;
 }
@@ -40,14 +91,22 @@
   background-position: center;
 }
 
-#samtal {
-  background-image: url('https://davidhak.github.io/jakoberlandson/resources/samtal_img.jpg');
+#timewaste {
+  background-image: url('https://davidhak.github.io/jakoberlandson/resources/timewaste.png');
+  background-size: 120%;
+  background-repeat: no-repeat;
+  background-position-y: 30%;
+  background-position-x: 10%;
+}
+
+#makeitgold {
+  background-image: url('https://davidhak.github.io/jakoberlandson/resources/makeitgold.png');
   background-size: cover;
   background-position: center;
 }
 
-#vidar {
-  background-image: url('https://davidhak.github.io/jakoberlandson/resources/vidar_img.jpg');
+#samtal {
+  background-image: url('https://davidhak.github.io/jakoberlandson/resources/samtal_img.jpg');
   background-size: cover;
   background-position: center;
 }
