@@ -1,29 +1,29 @@
 #fejk {
-
+  background-image: url(resources/fejk_img.avif);
   background-size: cover;
   background-position: center;
 }
 
 #peterpan {
-  background-image: url('/resources/peterPan_img.png');
+  background-image: url(resources/peterPan_img.png);
   background-size: cover;
   background-position: right;
 }
 
 #socialdemokraterna {
-  background-image: url('/resources/socialdemokraterna_img.png');
+  background-image: url(resources/socialdemokraterna_img.png);
   background-size: cover;
   background-position: center;
 }
 
 #vernissage {
-  background-image: url(/resources/vernissage_img.png);
+  background-image: url(resources/vernissage_img.png);
   background-size: cover;
   background-position: center;
 }
 
 #littleme {
-  background-image: url(/resources/littleme_img.png);
+  background-image: url(resources/littleme_img.png);
   background-size: cover;
   background-position: center;
 }
