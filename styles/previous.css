@@ -1,0 +1,102 @@
+.previousWork-section {
+  background-color: black;
+  box-sizing: border-box;
+  min-height: 150vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.696), rgba(0, 0, 0, 0.608)), url("http://jakoberlandson.com/wp-content/uploads/2020/06/bg3-scaled.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.work-container {
+  margin: auto;
+  max-width: 50%;
+}
+
+.link-nav {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding-top: 140px;
+  padding-bottom: 90px;
+
+}
+
+.link-nav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+}
+
+.link-nav ul li {
+  text-decoration: none;
+  padding-left: 1.3rem;
+  padding-right: 1.3rem;
+  font-size: 22px;
+  font-weight: 400;
+  cursor: pointer;
+  display: inline-block;
+  color: #a0a0a0;
+  transition: .3s;
+}
+
+.link-nav ul li:hover {
+  color: #fff;
+}
+
+.link-nav ul li.active {
+  color: #fff;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-flow: wrap;
+}
+
+.card {
+  position: relative;
+  width: 220px;
+  height: 220px;
+  background-color: #fff;
+  border: none;
+  margin-bottom: 50px;
+  transition: .3s;
+  cursor: pointer;
+  filter: grayscale(100%);
+}
+
+.card:hover {
+  transform: scale(1.08);
+  filter: grayscale(0%);
+
+}
+
+.card-header {
+  position: absolute;
+  bottom: 0;
+  opacity: 0;
+  width: 100%;
+  text-align: center;
+  transition: .3s;
+}
+
+.card-title {
+  margin: 0;
+  font-weight: 500;
+  font-size: 18px;
+  color: black;
+  background-color: #ffffffad;
+
+}
+
+.card:hover .card-header {
+  opacity: 1;
+}
+
+@media (min-width: 110em) {
+  .work-container {
+    max-width: 40%;
+  }
+}

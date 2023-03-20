@@ -1,0 +1,74 @@
+.contact-section {
+  background-color: black;
+  box-sizing: border-box;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.495), rgba(0, 0, 0, 0.608)), url("http://jakoberlandson.com/wp-content/uploads/2020/06/bg2-scaled.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.contact-container {
+  display: block;
+  text-align: center;
+  justify-content: center;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.email-img {
+  color: #fff;
+  height: 50px;
+  padding-bottom: 10px;
+}
+
+.email-text-container {
+  margin: 0;
+  padding: 0;
+}
+
+.email-text {
+  display: inline-block;
+  color: #fff;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.contact-text {
+  color: #fff;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 200;
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
+}
+
+.facebook {
+  width: 60px;
+  height: 60px;
+}
+
+.instagram,
+.spotify {
+  width: 60px;
+  height: 60px;
+}
+
+
+.facebook,
+.instagram,
+.spotify {
+  margin: 30px;
+  margin-top: 40px;
+  cursor: pointer;
+  transition: all .4s;
+}
+
+.facebook:hover,
+.instagram:hover,
+.spotify:hover {
+  transition: all .4s;
+  transform: scale(1.1);
+}
